@@ -15,10 +15,10 @@ It's a JavaScript app where user can like or dislike dog profiles. Different typ
 - display matching badge per click
 - display next profile after a pause
 
-![screenshot]()
+![screenshot](images/tinderdog-preview.png)
 
 ## [LiveDemo] 
-()
+(https://melodic-valkyrie-9d01f4.netlify.app)
 
 ## Built With
 
