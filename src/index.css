@@ -10,14 +10,14 @@ body {
   font-family: 'Fira Sans', sans-serif;
   background-color: white;
   line-height: 1.6;
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 
 /* Typography */
 p,
 h1,
 h2 {
-  color: #F6F7FB;
+  color: #f6f7fb;
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
 p {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #B7B7B7;
+  color: #b7b7b7;
 }
 
 #body-container {
@@ -61,11 +61,11 @@ main {
 
 article {
   height: 80%;
-  margin: 0 .5em;
+  margin: 0 0.5em;
 }
 
 #logo {
-  background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+  background: linear-gradient(270deg, #fa695a 0%, #f83375 100%);
   border-radius: 30px;
 }
 
@@ -83,7 +83,7 @@ article {
 
 .reaction {
   transform: rotate(-30deg);
-  max-width: fit-content;
+  width: fit-content;
 }
 
 .reaction img {
@@ -94,7 +94,7 @@ article {
 }
 
 #profile-info {
-  margin: .5rem 1rem;
+  margin: 0.5rem 1rem;
 }
 
 #actions {
@@ -109,15 +109,15 @@ article {
   width: 75px;
   border-radius: 50%;
   border: none;
-  box-shadow: 0px 10px 20px #E9E9EA;
+  box-shadow: 0 10px 20px #e9e9ea;
 }
 
 #btn-cross:hover,
 #btn-cross:focus {
-  background-color: #FFE7EF;
+  background-color: #ffe7ef;
 }
 
 #btn-heart:hover,
 #btn-heart:focus {
-  background-color: #DBFFF4;
+  background-color: #dbfff4;
 }
