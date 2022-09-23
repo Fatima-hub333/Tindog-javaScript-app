@@ -89,8 +89,8 @@ article {
 .reaction img {
   height: 80px;
   position: relative;
-  top: 32;
-  left: -10;
+  top: 32px;
+  left: -10px;
 }
 
 #profile-info {
