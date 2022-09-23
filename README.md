@@ -15,10 +15,10 @@ It's a JavaScript app where user can like or dislike dog profiles. Different typ
 - display matching badge per click
 - display next profile after a pause
 
-![screenshot](Google_Clone.png)
+![screenshot]()
 
 ## [LiveDemo] 
-(https://zesty-smakager-1f2b9d.netlify.app)
+()
 
 ## Built With
 
