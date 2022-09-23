@@ -1,8 +1,8 @@
 import { dogs } from "./data.js"
 
 export class Dog{
-  constructor(data) {
-    Object.assign(this, data)
+  constructor(data){
+    Object.assign(this,data)
     this.name = data.name
     this.avatar = data.avatar
     this.age = data.age
@@ -10,19 +10,14 @@ export class Dog{
     this.hasBeenSwiped = data.hasBeenSwiped
     this.hasBeenLiked = data.hasBeenLiked
   }
-  getReaction() {
-    let reaction = 'none'
-    if (this.hasBeenLiked) {
-      reaction = 'like'
-    } else {
-      if (this.hasBeenSwiped) {
-        reaction = 'nope'
-      } else reaction = 'none'
-    }
+  getReaction(){
+    let reaction = "none"
+    if (this.hasBeenLiked){ reaction = "like"}
+    else {if (this.hasBeenSwiped) {reaction = "nope"} else reaction = "none"}
     return reaction
   }
 }
 
-export let dogProfiles = dogs.map((dog) => {
+export let dogProfiles = dogs.map((dog)=>{
   return new Dog(dog)
 })
